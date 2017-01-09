@@ -1,0 +1,35 @@
+@import url('//fonts.googleapis.com/css?family=Roboto:400,700')
+@import '~nib/lib/nib/normalize/index'
+@import '~nib/lib/nib/reset'
+@import '~rupture/rupture/index'
+
+
+.container
+  center()
+
+.row
+  clearfix()
+  
+.page
+  margin-top 30px
+  padding 10px
+
+.col-2
+  +above(600px)
+    column(2/12)
+
+.col-3
+  +above(600px)
+    column(3/12)
+
+.col-4
+  +above(600px)
+    column(4/12)
+
+.col-7
+  +above(600px)
+    column(7/12)  
+
+.col-10
+  +above(600px)
+    column(10/12)
